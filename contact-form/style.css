@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#contact_us {
+  background-color: aliceblue;
+  max-width: 400px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.input-group {
+  margin-bottom: 15px;
+}
+.input-group label {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  outline: none;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  width: 465px;
+  background-color: aliceblue;
+} */
+
+/* <style>
+.input-group {
+  margin-bottom: 1rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+input {
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+</style> */
